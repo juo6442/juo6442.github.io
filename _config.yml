@@ -16,8 +16,7 @@
 title: by juo
 email: juo6442@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  재미있는 것이 좋습니다.
-  프로그래머로 일하는 중이며, 더 나은 사람이 되기 위해 노력하고 있습니다.
+  더 나은 사람이 되기 위해 노력하고 있습니다.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: juo6442
@@ -25,7 +24,7 @@ github_username:  juo6442
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 

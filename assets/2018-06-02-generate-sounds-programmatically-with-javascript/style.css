@@ -1,0 +1,30 @@
+.js_play_sound, .js_stop_sound {
+    display: inline-block;
+    padding: 4px 10px 2px 10px;
+    border: 1px solid #efefef;
+    background-color: #efefef;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.data_table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #efefef;
+    font-size: 12px;
+    margin: auto auto 20px auto;
+}
+
+.data_table tr {
+    border: 1px solid #efefef;
+}
+
+.data_table th {
+    background-color: #efefef;
+}
+
+.data_table th, .data_table td {
+    padding: 2px 5px;
+}

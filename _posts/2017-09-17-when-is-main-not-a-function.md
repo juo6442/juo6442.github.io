@@ -277,4 +277,4 @@ Hello World!
 
 내 생각에, 동료가 이렇게 생긴 코드를 과제로 제출한다면 채점자들은 코딩 스타일이 나쁘다고 점수를 깎는 것 외에는 달리 할 말이 없을 것이다.
 
-![Zoidberg: Warning: `main` is usually a function. Why not an int array?](https://memedad.com/memes/428595.jpg)
+![Zoidberg: Warning: `main` is usually a function. Why not an int array?](/assets/2017-09-17-when-is-main-not-a-function/why_not_an_int_array.jpg)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Javascript를 이용해 프로그래밍 방식으로 소리 생성하기"
+title: "Javascript를 이용해 프로그래밍 방식으로 소리 생성하기"
 categories: translate
 published: true
 ---

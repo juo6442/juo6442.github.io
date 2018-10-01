@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Main은 보통 함수이다. 그럼 그렇지 않을 때는?"
+title: "Main은 보통 함수이다. 그럼 그렇지 않을 때는?"
 categories: translate
 published: true
 ---

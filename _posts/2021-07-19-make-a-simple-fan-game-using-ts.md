@@ -167,7 +167,7 @@ class EmptyAudioResource extends AudioResource {
 
 처음엔 `HTMLAudioElement`를 생성해 사용했으나 재생과 멈춤, 루프에 딜레이가 있었다. 게임에 사용하려면 Web Audio API가 더 좋다.
 
-현대 웹 브라우저는 사용자 입력이 없는 상태에서의 오디오 자동 재생을 막고 있다. 그래서 게임을 시작할 때 버튼을 한 번 클릭하도록 만들었다. 하지만 Safari는 이것만으론 안 되고, user interaction으로 야기된 메서드 내에서 play 한 `AudioContext`에 대해서만 이후 자동 재생을 허용한다.
+현대 웹 브라우저는 사용자 입력이 없는 상태에서의 오디오 자동 재생을 막고 있다. 그래서 게임을 시작할 때 버튼을 한 번 클릭하도록 만들었다. 하지만 Safari는 이것만으론 안 되고, [user interaction](https://webkit.org/blog/6784/new-video-policies-for-ios/)으로 트리거된 메서드 내에서 play 한 `AudioContext`에 대해서만 이후 자동 재생을 허용한다.
 
 [이 글](https://curtisrobinson.medium.com/how-to-auto-play-audio-in-safari-with-javascript-21d50b0a2765)을 참고하여 시작할 때 빈 오디오를 플레이하면 Safari에서도 오디오가 정상 출력된다.
 
